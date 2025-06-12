@@ -25,4 +25,5 @@ jobs:
         working-directory: npxtesting/react-app
       - name: Run Unit Tests
         run: npm run test
+        working-directory: npxtesting/react-app
         
