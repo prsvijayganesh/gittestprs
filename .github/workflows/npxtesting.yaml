@@ -13,9 +13,9 @@ jobs:
     #     working-directory: ../react-app
     steps:
       - name: Install Dependencies
-        run: |
-          pwd
-          ls
+        run: pwd
+      - name: Install Dependencies
+        run: ls  
       - name: Checkout Code
         uses: actions/checkout@v4
       - name: Setup Node
