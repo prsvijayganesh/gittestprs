@@ -10,8 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: gittestprs/reactapp
+        working-directory: reactapp
     steps:
+      - name: Install Dependencies
+        run: pwd
       - name: Checkout Code
         uses: actions/checkout@v4
       - name: Setup Node
