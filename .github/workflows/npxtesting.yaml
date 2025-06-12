@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: reactapp
+        working-directory: gittestprs/reactapp
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
