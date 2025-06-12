@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: react-app
+        working-directory: reactapp
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
